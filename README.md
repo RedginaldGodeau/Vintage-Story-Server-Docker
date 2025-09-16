@@ -39,7 +39,7 @@ sudo ufw allow 42420/tcp
    ```bash
    ./install-vintage.sh [version]
    ```
-   Replace `[version]` with the desired Vintage Story version.
+   Replace `[version]` with the desired Vintage Story version. (1.21.0, 1.21.1, ...)
 
 ## Usage
 
@@ -96,6 +96,7 @@ Edit this file to customize:
 ├── docker-compose.yml
 ├── Makefile
 ├── install-vintage.sh
+├── vintage-story (created by the command ./install-vintage [version])
 ├── server-data/
 │   ├── serverconfig.json
 │   └── ... (other configuration and data files)
