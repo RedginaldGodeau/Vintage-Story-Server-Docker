@@ -1,0 +1,16 @@
+services:
+  vintage-story:
+    container_name: vintage_story_server
+    build:
+      context: .
+      dockerfile: ./docker/server.Dockerfile
+    platform: linux/amd64
+    tty: true
+    stdin_open: true
+
+    ports:
+      - "42420:42420"
+
+    volumes:
+      - ./vintage-story/:/home/vintagestory/server
+      - ./server-data:/home/vintagestory/data
