@@ -106,6 +106,12 @@ Edit this file to customize:
 
 For any questions or issues, consult the official Vintage Story documentation or create an issue in this repository.
 
+## Useful Link
+
+[Vintage Story Server on linux](https://wiki.vintagestory.at/Guide:Dedicated_Server#Dedicated_server_on_Linux)
+
+[List of commands](https://wiki.vintagestory.at/List_of_server_commands)
+
 ## Important Notes
 
 - Make sure port 42420 is properly opened and accessible
